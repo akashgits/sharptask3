@@ -80,3 +80,14 @@ const h1=document.querySelector('header h1');
 console.log(newdiv)
 
 container.insertBefore(newdiv,h1)
+
+let menu = document.getElementById('items');
+// create a new li node
+let li = document.createElement('li');
+li.textContent = 'hello world';
+
+// insert a new node after the last list item
+menu.insertBefore(li,  menu.firstElementChild);
+
+//completed the task
+

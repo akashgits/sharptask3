@@ -31,21 +31,7 @@ function addItem(e){
 
     itemlist.appendChild(li);
 
-    // create del button element
-
-    const deletebtn=document.createElement('button');
-
-    //add class to delete buttton
-    deletebtn.className='btn btn-danger btn-sm float-right delete'
-//apppend text node
-    deletebtn.appendChild(document.createTextNode('X'))
-
-    //Append button to li
-    li.appendChild(deletebtn);
-
-    //append li to list
-    itemlist.appendChild(li);
-
+   
 }
 
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form onsubmit="saveToLocalStorage(event)">
+            <label>amount</label>
+            <input  id="username"   type="number" name="username"  required/>
+            <label>choose a description</label>
+            <input id="email" type="text" name="emailId" required>
+            <label for="phonenumber">choose the category</label>
+            <select name="phonenumber" id="phonenumber"  required>
+                <option value="drinks">drinks</option>
+                <option value="fuel">fuel</option>
+                <option value="bills">bills</option>
+                <option value="resurent">resturent</option>
+                <option value="food">food</option>
+                <option value="car">car</option>
+                <option value="bikes">bikes</option>
+
+            </select>
+        
+            <button>submit</button>
+            <ul id="listOfUsers"></ul>
+
+        </form>
+        <script src="tracker.js">
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+  
+    </style>
+</head>
+<body>
+    <form id="form" >
+
+    <label >Expense Amout</label>
+    <input type="number" name="expenseAmount" id="expenseAmount" required>
+    <label >choose a description</label>
+    <input type="text" name="description" id="description" required>
+    <label for="">Category</label>
+    <select name="category" id="category" required >
+        <option value="" disabled selected hidden>choose one</option>
+        <option value="food">Food</option>
+        <option value="fuel">Feul</option>
+        <option value="Party">Party</option>
+        <option value="Tours">Tours</option>
+        <option value="creditCard">CreditCard</option>
+        <option value="houseRequirements">house requirements</option>
+    </select>
+    <button type="submit">submit</button>
+    <ul id="ul_id"></ul>
+
+   
+
+    </div>
+</form>
+<div id="new">
+    <button id="rzp-button1">upgrade to premium membership</button>
+</div>
+<button id="pay-button" >
+    Pay Now & Get Access
+</button>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+<script src="Expense.js"></script>
+    
+</body>
+</html>

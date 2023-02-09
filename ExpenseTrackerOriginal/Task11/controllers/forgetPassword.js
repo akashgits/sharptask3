@@ -29,6 +29,7 @@ exports.VerifyEmail=(req,res,next)=>{
             sgmail.send(msg).then(respon=>{
                 console.log(respon);
                 console.log("this is sendgrid resp");
+                console.log("thi is not working")
 
                
 
